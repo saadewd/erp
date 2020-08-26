@@ -1,0 +1,40 @@
+
+
+.loginFormMainDiv{
+    margin:  8rem auto;
+
+}
+.loginFormInputDiv{
+    width: 30%;
+    margin: 3rem auto;
+    /* border: 1px solid red; */
+}
+.loginFormInputField{
+    margin-bottom: 4%;
+}
+.loginFormSubmitBtn{
+    margin-top: 4%;
+    width: 50%;
+    background-color: darkblue;
+}
+@media (max-width:767px){
+    .loginFormMainDiv{
+        margin:  8rem auto;
+    
+    }
+    .loginFormInputDiv{
+        width: 100%;
+    }
+}
+@media (max-width:1000px){
+
+    .loginFormInputDiv{
+        width: 50%;
+    }
+}
+@media (max-width:1300px){
+
+    .loginFormInputDiv{
+        width: 60%;
+    }
+}
